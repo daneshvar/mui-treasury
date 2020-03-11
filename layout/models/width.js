@@ -2,14 +2,16 @@ const createWidth = gap => {
   return {
     gap,
     getStyle: defaultValue => {
-      if (gap === undefined) return defaultValue
-      if (gap === "auto")
-        return {
-          width: "auto",
-        }
+      if (gap === undefined) return defaultValue;
+      if (gap === 'auto') return {
+        width: 'auto'
+      };
+
+      // daneshvar.ho
       if (typeof gap === "string")
         return {
           width: `calc(100% - (${gap}))`,
+          "margin-right": `${gap}`,
         }
       if (gap === 0)
         return {
@@ -17,11 +19,12 @@ const createWidth = gap => {
         }
       return {
         width: `calc(100% - ${gap}px)`,
+        "margin-right": `${gap}px`,
       }
-    },
-  }
-}
-
+      // daneshvar.ho
+    }
+  };
+};
 
 const InvalidUnit = () => ({
   combine: other => other || 0
