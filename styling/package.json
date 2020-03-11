@@ -1,0 +1,17 @@
+{
+  "name": "@mui-treasury/styling",
+  "version": "0.2.8",
+  "main": "./index.js",
+  "author": "siriwatknp <siriwatkunaporn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "lodash.pick": "^4.4.0"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/styles": "^4.6.0"
+  },
+  "gitHead": "95a181d385e23e81e4c23b0b75ea060a7b381a17",
+  "private": false
+}

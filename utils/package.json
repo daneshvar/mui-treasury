@@ -1,0 +1,31 @@
+{
+  "name": "@mui-treasury/utils",
+  "version": "0.3.9",
+  "main": "./index.js",
+  "author": "siriwatknp <siriwatkunaporn@gmail.com>",
+  "keywords": [
+    "react",
+    "material-ui",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siriwatknp/mui-treasury.git",
+    "directory": "packages/mui-utils"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siriwatknp/mui-treasury/issues"
+  },
+  "homepage": "https://mui-treasury.com",
+  "dependencies": {
+    "clsx": "^1.0.4",
+    "lodash.get": "^4.4.2",
+    "lodash.isequal": "^4.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "gitHead": "1e22dd6ea5cb9710786c5647caec46ef1d80dde2",
+  "private": false
+}
