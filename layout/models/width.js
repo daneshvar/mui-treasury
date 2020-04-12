@@ -11,7 +11,7 @@ const createWidth = gap => {
       if (typeof gap === "string")
         return {
           width: `calc(100% - (${gap}))`,
-          "margin-right": `${gap}`,
+          "marginRight": `${gap}`,
         }
       if (gap === 0)
         return {
@@ -19,7 +19,7 @@ const createWidth = gap => {
         }
       return {
         width: `calc(100% - ${gap}px)`,
-        "margin-right": `${gap}px`,
+        "marginRight": `${gap}px`,
       }
       // daneshvar.ho
     }
